@@ -1,0 +1,22 @@
+<li>01 - khaneh.mp3
+<audio><source src="./music/hasin/01 - khaneh.mp3" type="audio/ogg"><source src="./music/hasin/01 - khaneh.mp3" type="audio/mpeg"></audio></li>
+<li>02 - Sham ra.mp3
+<audio><source src="./music/hasin/02 - Sham ra.mp3" type="audio/ogg"><source src="./music/hasin/02 - Sham ra.mp3" type="audio/mpeg"></audio></li>
+<li>03 - Bayad.mp3
+<audio><source src="./music/hasin/03 - Bayad.mp3" type="audio/ogg"><source src="./music/hasin/03 - Bayad.mp3" type="audio/mpeg"></audio></li>
+<li>04 - Az in.mp3
+<audio><source src="./music/hasin/04 - Az in.mp3" type="audio/ogg"><source src="./music/hasin/04 - Az in.mp3" type="audio/mpeg"></audio></li>
+<li>05 - Be dar bordan.mp3
+<audio><source src="./music/hasin/05 - Be dar bordan.mp3" type="audio/ogg"><source src="./music/hasin/05 - Be dar bordan.mp3" type="audio/mpeg"></audio></li>
+<li>06- Va koshtan.mp3
+<audio><source src="./music/hasin/06- Va koshtan.mp3" type="audio/ogg"><source src="./music/hasin/06- Va koshtan.mp3" type="audio/mpeg"></audio></li>
+<li>07 - Naguiad.mp3
+<audio><source src="./music/hasin/07 - Naguiad.mp3" type="audio/ogg"><source src="./music/hasin/07 - Naguiad.mp3" type="audio/mpeg"></audio></li>
+<li>08 - Hamsaye.mp3
+<audio><source src="./music/hasin/08 - Hamsaye.mp3" type="audio/ogg"><source src="./music/hasin/08 - Hamsaye.mp3" type="audio/mpeg"></audio></li>
+<li>09 - Ke to dar.mp3
+<audio><source src="./music/hasin/09 - Ke to dar.mp3" type="audio/ogg"><source src="./music/hasin/09 - Ke to dar.mp3" type="audio/mpeg"></audio></li>
+<li>10 - Maie.mp3
+<audio><source src="./music/hasin/10 - Maie.mp3" type="audio/ogg"><source src="./music/hasin/10 - Maie.mp3" type="audio/mpeg"></audio></li>
+<li>11 - Ta be.mp3
+<audio><source src="./music/hasin/11 - Ta be.mp3" type="audio/ogg"><source src="./music/hasin/11 - Ta be.mp3" type="audio/mpeg"></audio></li>

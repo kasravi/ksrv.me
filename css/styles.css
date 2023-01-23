@@ -1,0 +1,94 @@
+.vertical-center {
+    min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.menu div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top:10%;
+    top:10vh;
+}
+
+.menu{
+    cursor: pointer;
+    font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: .75em;
+    letter-spacing: .2em;
+    line-height: 1.1em;
+    margin:0px;
+    text-transform: uppercase;
+}
+
+.menu p:active {color:#df1d1d;} 
+
+.menu .row{
+    margin-bottom: 20px;
+}
+
+#title{
+    font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+    font-weight: normal;
+        font-size: 1.75em;
+    letter-spacing: .2em;
+    line-height: 1.1em;
+    margin:0px;
+    text-transform: uppercase;
+    float: left;
+    clear:both;
+}
+#title span{
+    color: #df1d1d;
+}
+
+#social {
+    text-align: center;
+}
+#social .icon{
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 11px 5px;
+}
+#social .icon:hover{
+    color: grey;
+}
+
+#music, #events, #publications, #projects, #videos {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+#music  ul, #events  ul, #publications  ul, #projects  ul, #videos ul{
+    cursor: default;
+    list-style: none;
+    /* padding-left: 0; */
+}
+
+#music ul span{
+    cursor: pointer;
+}
+
+a, a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+ul li{
+    margin-left: 2em;
+    text-indent: -2em;
+    margin: 5px 0;
+  }

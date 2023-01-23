@@ -1,0 +1,14 @@
+<li>Closing credits.mp3
+<audio><source src="./music/karaneh/Closing credits.mp3" type="audio/ogg"><source src="./music/karaneh/Closing credits.mp3" type="audio/mpeg"></audio></li>
+<li>Interlude 1.mp3
+<audio><source src="./music/karaneh/Interlude 1.mp3" type="audio/ogg"><source src="./music/karaneh/Interlude 1.mp3" type="audio/mpeg"></audio></li>
+<li>Interlude 2.mp3
+<audio><source src="./music/karaneh/Interlude 2.mp3" type="audio/ogg"><source src="./music/karaneh/Interlude 2.mp3" type="audio/mpeg"></audio></li>
+<li>Interlude 3.mp3
+<audio><source src="./music/karaneh/Interlude 3.mp3" type="audio/ogg"><source src="./music/karaneh/Interlude 3.mp3" type="audio/mpeg"></audio></li>
+<li>Interlude 4.mp3
+<audio><source src="./music/karaneh/Interlude 4.mp3" type="audio/ogg"><source src="./music/karaneh/Interlude 4.mp3" type="audio/mpeg"></audio></li>
+<li>Interlude 5.mp3
+<audio><source src="./music/karaneh/Interlude 5.mp3" type="audio/ogg"><source src="./music/karaneh/Interlude 5.mp3" type="audio/mpeg"></audio></li>
+<li>Title sequence.mp3
+<audio><source src="./music/karaneh/Title sequence.mp3" type="audio/ogg"><source src="./music/karaneh/Title sequence.mp3" type="audio/mpeg"></audio></li>

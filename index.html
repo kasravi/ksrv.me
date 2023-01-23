@@ -1,0 +1,383 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132429649-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132429649-1');
+</script>
+
+    <meta charset="utf-8">
+    <title>KSRV - Personal Website of Morteza Kasravi</title>
+    <meta name="description" content="Personal Website of Morteza Kasravi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body onload="prepare()">
+    <div class="container vertical-center">
+        <div class="header col-md-4  text-center">
+            <h2 id="title">Mo-</br>rteza</br> <span>K</span>a-</br><span style="padding-left: 50px;">sr</span>avi</h2>
+        </div>
+        <div class="menu col-md-8" style="height: 20px; text-align: center;">
+            <div class="row">
+                <p onclick="toggle('music')">Music</p>
+                <p>-</p>
+                <p onclick="toggle('events')">Events</p>
+                <p>-</p>
+                <p onclick="toggle('videos')">Videos</p>
+                <p>-</p>
+                <p onclick="toggle('publications')">Publications</p>
+                <p>-</p>
+                <p onclick="toggle('projects')">Projects</p>
+                <p>-</p>
+                <p onclick="toggle('social')">Social</p>
+                <p>-</p>
+                <p onclick="toggle()">Blank</p>
+            </div>
+            <div class="row" id="social" style="display:none;">
+                <a class="icon" href="https://github.com/kasravi" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="icon" href="https://www.quora.com/profile/Morteza-Kasravi" target="_blank"><i class="fab fa-quora"></i></a>
+                <a class="icon" href="https://twitter.com/mkasravi" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="icon" href="https://www.facebook.com/morteza.kasravi" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="icon" href="https://www.instagram.com/mortezakasravi" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="icon" href="https://stackoverflow.com/users/2389581/kasravi" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+                <a class="icon" href="https://plus.google.com/+mortezakasravi" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                <a class="icon" href="https://www.linkedin.com/in/mortezakasravi" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="icon" href="https://soundcloud.com/mortezakasravi" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                <a class="icon" href="https://open.spotify.com/user/zorba20002" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a class="icon" href="https://vimeo.com/user14813242" target="_blank"><i class="fab fa-vimeo"></i></a>
+                <a class="icon" href="https://goodreads.com/mkasravi" target="_blank"><i class="fab fa-goodreads-g"></i></a>
+                <a class="icon" id="email" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
+            <div class="lists" id="music" style="display:none;">
+                <ul class="col_ul">
+                    <li> 
+                        Serene Disquiet<a href="https://share.amuse.io/xjyf-3KlifsB" target="_blank"> ></a>
+                    </li>
+                    <li> <span>ST-</span>
+                        <ul>
+                            <li>ST-1519081200
+                                <audio>
+                                    <source src="./music/st/ST-1519081200.ogg" type="audio/ogg">
+                                    <source src="./music/st/ST-1519081200.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>Vernier</span>
+                        <ul>
+                            <li>0, 1, 3, 4, 6, 8, 9 - (3xlen,8)xlen
+                                <audio>
+                                    <source src="./music/vernier/0, 1, 3, 4, 6, 8, 9 - (3xlen,8)xlen.ogg" type="audio/ogg">
+                                    <source src="./music/vernier/0, 1, 3, 4, 6, 8, 9 - (3xlen,8)xlen.mp3" type="audio/mpeg"></audio></li>
+                            <li>vernier-demo
+                                <audio>
+                                    <source src="./music/vernier/vernier-demo.ogg" type="audio/ogg">
+                                    <source src="./music/vernier/vernier-demo.mp3" type="audio/mpeg"></audio></li>
+                            <li>vernier-rehersal-1
+                                <audio>
+                                    <source src="./music/vernier/vernier-rehersal-1.ogg" type="audio/ogg">
+                                    <source src="./music/vernier/vernier-rehersal-1.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>La Ballet De La Nuit</span>
+                        <ul>
+                            <li>intro
+                                <audio>
+                                    <source src="./music/le/intro.ogg" type="audio/ogg">
+                                    <source src="./music/le/intro.mp3" type="audio/mpeg"></audio></li>
+                            <li>riverside
+                                <audio>
+                                    <source src="./music/le/riverside.ogg" type="audio/ogg">
+                                    <source src="./music/le/riverside.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>An Shab baran amad</span>
+                        <ul>
+                            <li>SoundTrack
+                                <audio>
+                                    <source src="./music/anshab/An_Shab_Baran_Amad.ogg" type="audio/ogg">
+                                    <source src="./music/anshab/An_Shab_Baran_Amad.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>Ne Reminiscaris</span>
+                        <ul>
+                            <li>Intro
+                                <audio>
+                                    <source src="./music/ne/1-Intro.ogg" type="audio/ogg">
+                                    <source src="./music/ne/1-Intro.mp3" type="audio/mpeg"></audio></li>
+                            <li>Denial
+                                <audio>
+                                    <source src="./music/ne/9-Denial.ogg" type="audio/ogg">
+                                    <source src="./music/ne/9-Denial.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>Supercollider Playground</span>
+                        <ul>
+                            <li>SuperColliderPlayGround (1).mp3
+                                <audio>
+                                    <source src="./music/scplayground/SuperColliderPlayGround (1).ogg" type="audio/ogg">
+                                    <source src="./music/scplayground/SuperColliderPlayGround (1).mp3" type="audio/mpeg"></audio></li>
+                            <li>SuperColliderPlayGround (2).mp3
+                                <audio>
+                                    <source src="./music/scplayground/SuperColliderPlayGround (2).ogg" type="audio/ogg">
+                                    <source src="./music/scplayground/SuperColliderPlayGround (2).mp3" type="audio/mpeg"></audio></li>
+                            <li>SuperColliderPlayGround (3).mp3
+                                <audio>
+                                    <source src="./music/scplayground/SuperColliderPlayGround (3).ogg" type="audio/ogg">
+                                    <source src="./music/scplayground/SuperColliderPlayGround (3).mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>Natia</span>
+                        <ul>
+                            <li>Natia 10
+                                <audio>
+                                    <source src="./music/natia/Natia 10.ogg" type="audio/ogg">
+                                    <source src="./music/natia/Natia 10.mp3" type="audio/mpeg"></audio></li>
+                            <li>Natia 17
+                                <audio>
+                                    <source src="./music/natia/Natia 17.ogg" type="audio/ogg">
+                                    <source src="./music/natia/Natia 17.mp3" type="audio/mpeg"></audio></li>
+                            <li>Natia 19-1
+                                <audio>
+                                    <source src="./music/natia/Natia 19-1.ogg" type="audio/ogg">
+                                    <source src="./music/natia/Natia 19-1.mp3" type="audio/mpeg"></audio></li>
+                            <li>Natia 19-2
+                                <audio>
+                                    <source src="./music/natia/Natia 19-2.ogg" type="audio/ogg">
+                                    <source src="./music/natia/Natia 19-2.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>Karaneh</span>
+                        <ul>
+                            <li>Closing credits
+                                <audio>
+                                    <source src="./music/karaneh/Closing credits.ogg" type="audio/ogg">
+                                    <source src="./music/karaneh/Closing credits.mp3" type="audio/mpeg"></audio></li>
+                            <li>Interlude 1
+                                <audio>
+                                    <source src="./music/karaneh/Interlude 1.ogg" type="audio/ogg">
+                                    <source src="./music/karaneh/Interlude 1.mp3" type="audio/mpeg"></audio></li>
+                            <li>Interlude 2
+                                <audio>
+                                    <source src="./music/karaneh/Interlude 2.ogg" type="audio/ogg">
+                                    <source src="./music/karaneh/Interlude 2.mp3" type="audio/mpeg"></audio></li>
+                            <li>Interlude 3
+                                <audio>
+                                    <source src="./music/karaneh/Interlude 3.ogg" type="audio/ogg">
+                                    <source src="./music/karaneh/Interlude 3.mp3" type="audio/mpeg"></audio></li>
+                            <li>Interlude 4
+                                <audio>
+                                    <source src="./music/karaneh/Interlude 4.ogg" type="audio/ogg">
+                                    <source src="./music/karaneh/Interlude 4.mp3" type="audio/mpeg"></audio></li>
+                            <li>Interlude 5
+                                <audio>
+                                    <source src="./music/karaneh/Interlude 5.ogg" type="audio/ogg">
+                                    <source src="./music/karaneh/Interlude 5.mp3" type="audio/mpeg"></audio></li>
+                            <li>Title sequence
+                                <audio>
+                                    <source src="./music/karaneh/Title sequence.ogg" type="audio/ogg">
+                                    <source src="./music/karaneh/Title sequence.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>Has In</span>
+                        <ul>
+                            <li>khaneh
+                                <audio>
+                                    <source src="./music/hasin/01 - khaneh.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/01 - khaneh.mp3" type="audio/mpeg"></audio></li>
+                            <li>Sham ra
+                                <audio>
+                                    <source src="./music/hasin/02 - Sham ra.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/02 - Sham ra.mp3" type="audio/mpeg"></audio></li>
+                            <li>Bayad
+                                <audio>
+                                    <source src="./music/hasin/03 - Bayad.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/03 - Bayad.mp3" type="audio/mpeg"></audio></li>
+                            <li>Az in
+                                <audio>
+                                    <source src="./music/hasin/04 - Az in.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/04 - Az in.mp3" type="audio/mpeg"></audio></li>
+                            <li>Be dar bordan
+                                <audio>
+                                    <source src="./music/hasin/05 - Be dar bordan.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/05 - Be dar bordan.mp3" type="audio/mpeg"></audio></li>
+                            <li>Va koshtan
+                                <audio>
+                                    <source src="./music/hasin/06- Va koshtan.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/06- Va koshtan.mp3" type="audio/mpeg"></audio></li>
+                            <li>Naguiad
+                                <audio>
+                                    <source src="./music/hasin/07 - Naguiad.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/07 - Naguiad.mp3" type="audio/mpeg"></audio></li>
+                            <li>Hamsaye
+                                <audio>
+                                    <source src="./music/hasin/08 - Hamsaye.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/08 - Hamsaye.mp3" type="audio/mpeg"></audio></li>
+                            <li>Ke to dar
+                                <audio>
+                                    <source src="./music/hasin/09 - Ke to dar.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/09 - Ke to dar.mp3" type="audio/mpeg"></audio></li>
+                            <li>Maie
+                                <audio>
+                                    <source src="./music/hasin/10 - Maie.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/10 - Maie.mp3" type="audio/mpeg"></audio></li>
+                            <li>Ta be
+                                <audio>
+                                    <source src="./music/hasin/11 - Ta be.ogg" type="audio/ogg">
+                                    <source src="./music/hasin/11 - Ta be.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>Ha6ti in 8 tracks</span>
+                        <ul>
+                            <li>Tekrar
+                                <audio>
+                                    <source src="./music/ha6ti/tekrar.ogg" type="audio/ogg">
+                                    <source src="./music/ha6ti/tekrar.mp3" type="audio/mpeg">
+                                </audio>
+                            </li>
+                            <li>TrikXane
+                                <audio>
+                                    <source src="./music/ha6ti/tarike in xane.ogg" type="audio/ogg">
+                                    <source src="./music/ha6ti/tarike in xane.mp3" type="audio/mpeg">
+                                </audio>
+                            </li>
+                            <li>Madar
+                                <audio>
+                                    <source src="./music/ha6ti/madar.ogg" type="audio/ogg">
+                                    <source src="./music/ha6ti/madar.mp3" type="audio/mpeg">
+                                </audio>
+                            </li>
+                            <li>Far6eIrani
+                                <audio>
+                                    <source src="./music/ha6ti/far6 e irani.ogg" type="audio/ogg">
+                                    <source src="./music/ha6ti/far6 e irani.mp3" type="audio/mpeg">
+                                </audio>
+                            </li>
+                            <li>Xane
+                                <audio>
+                                    <source src="./music/ha6ti/xane.ogg" type="audio/ogg">
+                                    <source src="./music/ha6ti/xane.mp3" type="audio/mpeg">
+                                </audio>
+                            </li>
+                            <li>Payan
+                                <audio>
+                                    <source src="./music/ha6ti/payan.ogg" type="audio/ogg">
+                                    <source src="./music/ha6ti/payan.mp3" type="audio/mpeg">
+                                </audio>
+                            </li>
+                        </ul>
+                    <li> <span>Singles</span>
+                        <ul>
+                            <li>a metamorphosis theme
+                                <audio>
+                                    <source src="./music/singles/a metamorphosis theme.ogg" type="audio/ogg">
+                                    <source src="./music/singles/a metamorphosis theme.mp3" type="audio/mpeg"></audio></li>
+                            <li>kalevala
+                                <audio>
+                                    <source src="./music/singles/kalevala.ogg" type="audio/ogg">
+                                    <source src="./music/singles/kalevala.mp3" type="audio/mpeg"></audio></li>
+                            <li>naqqali-Extracts
+                                <audio>
+                                    <source src="./music/singles/naqqali-Extracts.ogg" type="audio/ogg">
+                                    <source src="./music/singles/naqqali-Extracts.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    <li> <span>Old</span>
+                        <ul>
+                            <li>behnam
+                                <audio>
+                                    <source src="./music/old/behnam.ogg" type="audio/ogg">
+                                    <source src="./music/old/behnam.mp3" type="audio/mpeg"></audio></li>
+                            <li>fi6
+                                <audio>
+                                    <source src="./music/old/fi6.ogg" type="audio/ogg">
+                                    <source src="./music/old/fi6.mp3" type="audio/mpeg"></audio></li>
+                            <li>saat9
+                                <audio>
+                                    <source src="./music/old/saat9.ogg" type="audio/ogg">
+                                    <source src="./music/old/saat9.mp3" type="audio/mpeg"></audio></li>
+                        </ul>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+            <div class="lists" id="events" style="display:none;">
+                <ul>
+                    <li>Behold International Theatre Festival - Feb 2022- The Red storm - Copenhagen - Denmark</li>
+                    <li>PALACE OF ILLUSIONS: INSTITUTE OF BROKEN HEARTS - Mar 2021 - The Red storm - Copenhagen - Denmark</li>
+                    <li>Interference #7 - live performance of vernier - nov 2018 - Inter Arts Center of Lund University - Malmö - Sweden</li>
+                    <li>5th Encuentro Internacional De Video-danza Y Video-performance - La Ballet de La Nuit - First Watch - Night (2) - oct 2018 - Valencia - Spain</li>
+                    <li>Headroom #3 - Live performance of vernier - Sep 2018 - Copenhagen</li>
+                    <li>Live performance of st- Underbanen - Jul 2018 - Copenhagen</li>
+                    <li>La Ballet de La Nuit - First Watch - Night (2) -  Video Dance - may 2018 - Cerisy-la-Salle - France</li>
+                    <li>Theater Tapas - Live electronics - Teaterøen - Jan 2016 - Copenhagen</li>
+                    <li>MERXOUT Projects, Open Source - Live jam - Shirin Gallery- Dec 2013 - Tehran</li>
+                    <li>TADAEX - Live Coding - Mohsen Gallery - Oct 2013 - Tehran</li>
+                </ul>
+            </div>
+            <div class="lists" id="videos" style="display:none;">
+                <ul>
+                    <li>PALACE OF ILLUSIONS: INSTITUTE OF BROKEN HEARTS<a href="https://vimeo.com/490871110"> ></a></li>
+                    <li>St in underbanen<a href="https://www.facebook.com/underbanen/videos/1849410598697181/" > ></a></li>
+                    <li>LE BALLET DE LA NUIT - FIRST WATCH - NIGHT (2)<a href="https://www.numeridanse.tv/videotheque-danse/le-ballet-de-la-nuit-first-watch-night-2?s"> ></a></li>
+                    <li>MERXOUT Projects, Open Source<a href="https://www.youtube.com/watch?v=Wxg6y9UKwmk"> ></a></li>
+                    <li>Fi6<a href="https://vimeo.com/54029326"> ></a></li>
+                </ul>
+            </div>
+            <div class="lists" id="publications" style="display:none;">
+                <ul>
+                    <li>Green Façade/Roofs Design Tool - Cloud-based Simulation Tool for Evaluating Lighting Condition for Plants in Dense Urban Areas - Facade Tectonics 2022 World Congress</li>
+                    <li>Human-plant centric shading control: Considering the impact of shading systems on both occupants' and plants' requirements - BuildSim Nordic 2022</li>
+                    <li>Generative Improvising on "Shur" – Published at Milan Generative Art Conference 2009</li>
+                    <li>Realization of Stochastic Music – Submitted at Oslo NIME Conference 2011</li>
+                    <li>A New Approach to Appreciation of "Radif" –Waiting for publication – in Persian (2015)</li>
+                    <li>Discovering Chronology of Classic Poems with Availability Heuristics –Waiting for publication - in Persian (2015)</li>
+                </ul>
+            </div>
+            <div class="lists" id="projects" style="display:none;">
+                <ul>
+                    <li>Virtual Reality Tetris<a href="https://play.google.com/store/apps/details?id=me.ksrv.tetris"> ></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" language="javascript">
+        //<!--
+        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+        // Random encryption key feature coded by Andrew Moulden
+        // This code is freeware provided these four comment lines remain intact
+        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+        { coded = "EHbAH6k@cPHki.FwP"
+          key = "4Mwr9Ic1YlQBjnWuU3hzAaeFvxiCJ7d2fsXtKSHG865kmOyoRDbgVZpqLTN0EP"
+          shift=coded.length
+          link=""
+          for (i=0; i<coded.length; i++) {
+            if (key.indexOf(coded.charAt(i))==-1) {
+              ltr = coded.charAt(i)
+              link += (ltr)
+            }
+            else {     
+              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+              link += (key.charAt(ltr))
+            }
+          }
+        document.getElementById("email").href = "mailto:"+link;
+        }
+        //-->
+        </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
